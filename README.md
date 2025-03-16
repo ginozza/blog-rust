@@ -82,7 +82,6 @@ Para más detalles, consulta la [documentación de arquitectura](docs/ARCHITECTU
 - [API](docs/API.md): Documentación detallada de todos los endpoints.
 - [Arquitectura](docs/ARCHITECTURE.md): Descripción de la arquitectura y patrones de diseño.
 - [Base de Datos](docs/DATABASE.md): Estructura y configuración de la base de datos.
-- [Contribución](docs/CONTRIBUTING.md): Guía para contribuir al proyecto.
 
 ## Licencia
 
