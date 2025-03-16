@@ -1,0 +1,28 @@
+[package]
+name = "blog-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+diesel = { version = "2.2.8", features = ["postgres", "r2d2", "chrono"] }
+dotenv = "0.15.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "1.0"
+uuid = { version = "1.7", features = ["v4", "serde"] }
+log = "0.4"
+env_logger = "0.11"
+r2d2 = "0.8"
+# Actix Web y dependencias relacionadas
+actix-web = "4.4"
+actix-rt = "2.9"
+actix-cors = "0.6"
+futures = "0.3"
+# JWT y autenticación
+jsonwebtoken = "8.3"
+bcrypt = "0.15"
+actix-web-httpauth = "0.8"
+rand = "0.8"
+# Utilidades
+deunicode = "1.4.0"
